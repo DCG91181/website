@@ -1,0 +1,41 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/",
+  "title": "DCG91181",
+  "name": "Defcon Group Jalandhar - DCG91181",
+  "ascii": "DCG91181",
+  "social": {
+    "github": "dc91181",
+    "linkedin": "dc91181",
+    "insta": "dc91181",
+    "twitter": "dc91181"
+  },
+  "email": "dcg91181@gmail.com",
+  "ps1_hostname": "DCG91181",
+  "ps1_username": "welcome",
+  "repo": "https://github.com/dc91181",
+  "blogs_url": "https://blogs.dc91181.org/",
+  "donate_urls": {
+    "paypal": "https://paypal.me/",
+    "patreon": "https://patreon.com/"
+  },
+  "colors": {
+    "light": {
+      "background": "#FBF1C9",
+      "foreground": "#3C3836",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#7C6F64",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#00ff00",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
