@@ -60,9 +60,8 @@ export const events = async (args: string[]): Promise<string> => {
 
 export const meetups = async (args: string[]): Promise<string> => {
   return `
-📆 Monthly Meetup Schedule 📆
-
-🌟 DEFCON Group Jalandhar Meetups
+📆 <b style=color:red>Monthly Meetup Schedule</b> 📆
+---------------------------------------------------------------------------
 
 Join us every first week of the month for our engaging and informative virtual cybersecurity meetups! These gatherings are an opportunity for enthusiasts, professionals, and learners alike to come together, share insights, and dive deep into the world of cybersecurity.
 
@@ -71,7 +70,7 @@ Join us every first week of the month for our engaging and informative virtual c
 
 🗓️ Upcoming Meetups:
 
-January 2024 Meetup
+   <b style=color:red>--> January 2024 Meetup <--</b>
 
 📅 Date: [Will be notified later]
 🔗 [Additional Details or Guest Speaker Info will be notified later]
@@ -86,7 +85,7 @@ Agenda Overview:
 
 Join our Discord server for real-time updates, RSVPs, and detailed agendas for each meetup. Don't miss out on the chance to network, learn, and grow within our vibrant cybersecurity community.
 
-🔗 Discord Link: https://discord.gg/j3VMgyVaDt 
+🔗 <b style=color:red>Discord Link:</b> https://discord.gg/j3VMgyVaDt 
 
 Mark your calendars and be part of these engaging and enriching meetups!
 
@@ -95,7 +94,7 @@ Mark your calendars and be part of these engaging and enriching meetups!
 
 export const contact = async (args: string[]): Promise<string> => {
   return `
-📧 Contact Us
+📧 <b style=color:red>Contact Us</b>
 
 Primary Point of Contact: Kartik Dixit
 
@@ -111,7 +110,7 @@ Secondary POC Email: chsitumadane785@gmail.com
 export const join = async (args: string[]): Promise<string> => {
   return `
   
-🛡️ Join DEFCON Group Jalandhar - DCG91181
+🛡️ <b style=color:red>Join DEFCON Group Jalandhar - DCG91181</b>
 
 🌐 About Us:
   
@@ -127,15 +126,21 @@ We're dedicated to exploring the ever-evolving realms of cybersecurity, fosterin
 
 🔗 How to Join:
 
-Discord: <a href="https://discord.gg/j3VMgyVaDt">click here to join or just type discord</a> 
+<b style=color:red>Discord:</b> <a href="https://discord.gg/j3VMgyVaDt">click here to join or just type discord</a> 
 
 `;
 };
 
-export const insta = async (args: string[]): Promise<string> => {
+export const instagram = async (args: string[]): Promise<string> => {
   window.open(`https://www.instagram.com/${config.social.insta}/`);
 
   return 'Opening Instagram...';
+};
+
+export const discord = async (args: string[]): Promise<string> => {
+  window.open(`https://discord.gg/j3VMgyVaDt`);
+
+  return 'Opening Discord...';
 };
 
 export const twitter = async (args: string[]): Promise<string> => {
@@ -171,7 +176,7 @@ export const github = async (args: string[]): Promise<string> => {
 };
 
 export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+  window.open(`https://www.linkedin.com/company/${config.social.linkedin}/`);
 
   return 'Opening linkedin...';
 };
@@ -208,10 +213,9 @@ export const whoami = async (args: string[]): Promise<string> => {
 
 export const ls = async (args: string[]): Promise<string> => {
   return `a
-bunch
-of
-fake
-directories`;
+Nothing
+much
+here`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
@@ -261,15 +265,15 @@ export const banner = (args?: string[]): string => {
   ░░░░░░░░░░     ░░░░░░░░░    ░░░░░░░░░   ░░░░░░░░  ░░░░░ ░░░░░  ░░░░░░░░   ░░░░░ 
 </div>
 <br>
-Type 'sumfetch' to display summary.
-Type 'events' to view all events.
-Type 'meetups' to display meetup calendar.
-Type 'blogs' to read latest blogs.
-Type 'about' to know more about us.
-Type 'contact' to view contact details.
-Type 'join' to connect with us. 
+Type <b style=color:red>sumfetch</b> to display summary.
+Type <b style=color:red>events</b> to view all events.
+Type <b style=color:red>meetups</b> to display meetup calendar.
+Type <b style=color:red>blogs</b> to read latest blogs.
+Type <b style=color:red>about</b> to know more about us.
+Type <b style=color:red>contact</b> to view contact details.
+Type <b style=color:red>join</b> to connect with us. 
 
-Type 'help' to see all available commands.
-Type 'linkedin', 'twitter' or 'insta' to follow us on these social handles.
+Type <b style=color:red>help</b> to see all available commands.
+Type <b style=color:red>linkedin</b>, <b style=color:red>twitter</b> or <b style=color:red>instagram</b> to follow us on these social handles.
 `;
 };

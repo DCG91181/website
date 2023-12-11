@@ -1,11 +1,11 @@
 {
-  "name": "liveterm",
+  "name": "dcg91181",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Defcon Jalandhar Group",
+    "url": "https://dc91181.org",
+    "email": "dcg91181@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
